@@ -1,0 +1,453 @@
+{
+  "timestamp": "20250605_130030",
+  "analysis_type": "real_robot_depth_analysis",
+  "total_frames": 20,
+  "config": {
+    "target_resolution": [
+      48,
+      32
+    ],
+    "max_depth": 2.0,
+    "min_depth": 0.15,
+    "edge_gradient_threshold": 0.1,
+    "edge_corruption_prob": 0.3,
+    "edge_shuffle_prob": 0.4,
+    "perlin_scale": 8.0,
+    "perlin_threshold": 0.4,
+    "perlin_evolution_speed": 0.05,
+    "blind_spot_min_cols": 1,
+    "blind_spot_max_cols": 5,
+    "gaussian_sigma": 0.8
+  },
+  "results": [
+    {
+      "filename": "extended_robot_depth_frame_00.npy",
+      "shape": [
+        480,
+        848
+      ],
+      "total_pixels": 407040,
+      "valid_pixels": 292260,
+      "coverage_pct": 71.80129716981132,
+      "depth_range": [
+        0.32899999618530273,
+        9.291999816894531
+      ],
+      "mean_depth": 0.7789323329925537,
+      "depth_std": 0.3899588882923126,
+      "edge_content": "0.039606385",
+      "sim_coverage_pct": 33.203125,
+      "real_coverage_pct": 100.0,
+      "coverage_loss_pct": 38.59817216981132,
+      "resolution_compression": 265.0
+    },
+    {
+      "filename": "extended_robot_depth_frame_01.npy",
+      "shape": [
+        480,
+        848
+      ],
+      "total_pixels": 407040,
+      "valid_pixels": 292661,
+      "coverage_pct": 71.89981328616352,
+      "depth_range": [
+        0.32899999618530273,
+        8.914999961853027
+      ],
+      "mean_depth": 0.7811195254325867,
+      "depth_std": 0.39936670660972595,
+      "edge_content": "0.034307912",
+      "sim_coverage_pct": 33.854166666666664,
+      "real_coverage_pct": 100.0,
+      "coverage_loss_pct": 38.04564661949686,
+      "resolution_compression": 265.0
+    },
+    {
+      "filename": "extended_robot_depth_frame_02.npy",
+      "shape": [
+        480,
+        848
+      ],
+      "total_pixels": 407040,
+      "valid_pixels": 292432,
+      "coverage_pct": 71.84355345911949,
+      "depth_range": [
+        0.32899999618530273,
+        6.801000118255615
+      ],
+      "mean_depth": 0.7780738472938538,
+      "depth_std": 0.37956327199935913,
+      "edge_content": "0.04145778",
+      "sim_coverage_pct": 30.338541666666668,
+      "real_coverage_pct": 100.0,
+      "coverage_loss_pct": 41.50501179245282,
+      "resolution_compression": 265.0
+    },
+    {
+      "filename": "extended_robot_depth_frame_03.npy",
+      "shape": [
+        480,
+        848
+      ],
+      "total_pixels": 407040,
+      "valid_pixels": 292591,
+      "coverage_pct": 71.88261595911949,
+      "depth_range": [
+        0.32899999618530273,
+        7.093999862670898
+      ],
+      "mean_depth": 0.7796749472618103,
+      "depth_std": 0.3907109498977661,
+      "edge_content": "0.03672057",
+      "sim_coverage_pct": 36.067708333333336,
+      "real_coverage_pct": 100.0,
+      "coverage_loss_pct": 35.814907625786155,
+      "resolution_compression": 265.0
+    },
+    {
+      "filename": "extended_robot_depth_frame_04.npy",
+      "shape": [
+        480,
+        848
+      ],
+      "total_pixels": 407040,
+      "valid_pixels": 292577,
+      "coverage_pct": 71.87917649371069,
+      "depth_range": [
+        0.32899999618530273,
+        9.491999626159668
+      ],
+      "mean_depth": 0.7809615135192871,
+      "depth_std": 0.4120408594608307,
+      "edge_content": "0.045250427",
+      "sim_coverage_pct": 34.309895833333336,
+      "real_coverage_pct": 100.0,
+      "coverage_loss_pct": 37.56928066037735,
+      "resolution_compression": 265.0
+    },
+    {
+      "filename": "extended_robot_depth_frame_05.npy",
+      "shape": [
+        480,
+        848
+      ],
+      "total_pixels": 407040,
+      "valid_pixels": 293226,
+      "coverage_pct": 72.03862028301887,
+      "depth_range": [
+        0.32899999618530273,
+        9.920000076293945
+      ],
+      "mean_depth": 0.7799888849258423,
+      "depth_std": 0.4008580446243286,
+      "edge_content": "0.036087666",
+      "sim_coverage_pct": 32.942708333333336,
+      "real_coverage_pct": 100.0,
+      "coverage_loss_pct": 39.09591194968554,
+      "resolution_compression": 265.0
+    },
+    {
+      "filename": "extended_robot_depth_frame_06.npy",
+      "shape": [
+        480,
+        848
+      ],
+      "total_pixels": 407040,
+      "valid_pixels": 292989,
+      "coverage_pct": 71.98039504716981,
+      "depth_range": [
+        0.32899999618530273,
+        9.630999565124512
+      ],
+      "mean_depth": 0.7777309417724609,
+      "depth_std": 0.3822934925556183,
+      "edge_content": "0.04031199",
+      "sim_coverage_pct": 37.109375,
+      "real_coverage_pct": 100.0,
+      "coverage_loss_pct": 34.87102004716981,
+      "resolution_compression": 265.0
+    },
+    {
+      "filename": "extended_robot_depth_frame_07.npy",
+      "shape": [
+        480,
+        848
+      ],
+      "total_pixels": 407040,
+      "valid_pixels": 293337,
+      "coverage_pct": 72.06589033018868,
+      "depth_range": [
+        0.32899999618530273,
+        4.815000057220459
+      ],
+      "mean_depth": 0.7770886421203613,
+      "depth_std": 0.37276118993759155,
+      "edge_content": "0.037086822",
+      "sim_coverage_pct": 32.682291666666664,
+      "real_coverage_pct": 100.0,
+      "coverage_loss_pct": 39.383598663522015,
+      "resolution_compression": 265.0
+    },
+    {
+      "filename": "extended_robot_depth_frame_08.npy",
+      "shape": [
+        480,
+        848
+      ],
+      "total_pixels": 407040,
+      "valid_pixels": 293278,
+      "coverage_pct": 72.05139544025157,
+      "depth_range": [
+        0.32899999618530273,
+        8.404000282287598
+      ],
+      "mean_depth": 0.7797930240631104,
+      "depth_std": 0.4019966423511505,
+      "edge_content": "0.0337735",
+      "sim_coverage_pct": 37.955729166666664,
+      "real_coverage_pct": 100.0,
+      "coverage_loss_pct": 34.095666273584904,
+      "resolution_compression": 265.0
+    },
+    {
+      "filename": "extended_robot_depth_frame_09.npy",
+      "shape": [
+        480,
+        848
+      ],
+      "total_pixels": 407040,
+      "valid_pixels": 293514,
+      "coverage_pct": 72.109375,
+      "depth_range": [
+        0.32899999618530273,
+        9.77400016784668
+      ],
+      "mean_depth": 0.7865593433380127,
+      "depth_std": 0.45077624917030334,
+      "edge_content": "0.036385868",
+      "sim_coverage_pct": 35.7421875,
+      "real_coverage_pct": 100.0,
+      "coverage_loss_pct": 36.3671875,
+      "resolution_compression": 265.0
+    },
+    {
+      "filename": "extended_robot_depth_frame_10.npy",
+      "shape": [
+        480,
+        848
+      ],
+      "total_pixels": 407040,
+      "valid_pixels": 294275,
+      "coverage_pct": 72.29633451257861,
+      "depth_range": [
+        0.32899999618530273,
+        9.491999626159668
+      ],
+      "mean_depth": 0.7801275253295898,
+      "depth_std": 0.4085427224636078,
+      "edge_content": "0.03484321",
+      "sim_coverage_pct": 32.486979166666664,
+      "real_coverage_pct": 100.0,
+      "coverage_loss_pct": 39.809355345911946,
+      "resolution_compression": 265.0
+    },
+    {
+      "filename": "extended_robot_depth_frame_11.npy",
+      "shape": [
+        480,
+        848
+      ],
+      "total_pixels": 407040,
+      "valid_pixels": 293167,
+      "coverage_pct": 72.02412539308176,
+      "depth_range": [
+        0.32899999618530273,
+        7.716000080108643
+      ],
+      "mean_depth": 0.7781014442443848,
+      "depth_std": 0.3827355206012726,
+      "edge_content": "0.04698519",
+      "sim_coverage_pct": 35.7421875,
+      "real_coverage_pct": 100.0,
+      "coverage_loss_pct": 36.28193789308176,
+      "resolution_compression": 265.0
+    },
+    {
+      "filename": "extended_robot_depth_frame_12.npy",
+      "shape": [
+        480,
+        848
+      ],
+      "total_pixels": 407040,
+      "valid_pixels": 292633,
+      "coverage_pct": 71.89293435534591,
+      "depth_range": [
+        0.32899999618530273,
+        9.491999626159668
+      ],
+      "mean_depth": 0.7794142365455627,
+      "depth_std": 0.39406248927116394,
+      "edge_content": "0.039963312",
+      "sim_coverage_pct": 34.635416666666664,
+      "real_coverage_pct": 100.0,
+      "coverage_loss_pct": 37.25751768867925,
+      "resolution_compression": 265.0
+    },
+    {
+      "filename": "extended_robot_depth_frame_13.npy",
+      "shape": [
+        480,
+        848
+      ],
+      "total_pixels": 407040,
+      "valid_pixels": 292973,
+      "coverage_pct": 71.97646422955975,
+      "depth_range": [
+        0.32899999618530273,
+        6.5
+      ],
+      "mean_depth": 0.7800793647766113,
+      "depth_std": 0.39448246359825134,
+      "edge_content": "0.032662146",
+      "sim_coverage_pct": 31.705729166666668,
+      "real_coverage_pct": 100.0,
+      "coverage_loss_pct": 40.27073506289308,
+      "resolution_compression": 265.0
+    },
+    {
+      "filename": "extended_robot_depth_frame_14.npy",
+      "shape": [
+        480,
+        848
+      ],
+      "total_pixels": 407040,
+      "valid_pixels": 293065,
+      "coverage_pct": 71.9990664308176,
+      "depth_range": [
+        0.32899999618530273,
+        6.697999954223633
+      ],
+      "mean_depth": 0.7788794636726379,
+      "depth_std": 0.38611409068107605,
+      "edge_content": "0.03728384",
+      "sim_coverage_pct": 35.9375,
+      "real_coverage_pct": 100.0,
+      "coverage_loss_pct": 36.06156643081761,
+      "resolution_compression": 265.0
+    },
+    {
+      "filename": "real_robot_depth_frame_00.npy",
+      "shape": [
+        480,
+        848
+      ],
+      "total_pixels": 407040,
+      "valid_pixels": 302252,
+      "coverage_pct": 74.2560927672956,
+      "depth_range": [
+        0.32899999618530273,
+        9.996000289916992
+      ],
+      "mean_depth": 0.9108644127845764,
+      "depth_std": 0.872453510761261,
+      "edge_content": "0.062114343",
+      "sim_coverage_pct": 32.552083333333336,
+      "real_coverage_pct": 99.67447916666667,
+      "coverage_loss_pct": 41.70400943396226,
+      "resolution_compression": 265.0
+    },
+    {
+      "filename": "real_robot_depth_frame_01.npy",
+      "shape": [
+        480,
+        848
+      ],
+      "total_pixels": 407040,
+      "valid_pixels": 304169,
+      "coverage_pct": 74.72705385220125,
+      "depth_range": [
+        0.32899999618530273,
+        9.996000289916992
+      ],
+      "mean_depth": 0.9153043627738953,
+      "depth_std": 0.8795027732849121,
+      "edge_content": "0.059700523",
+      "sim_coverage_pct": 37.044270833333336,
+      "real_coverage_pct": 99.67447916666667,
+      "coverage_loss_pct": 37.682783018867916,
+      "resolution_compression": 265.0
+    },
+    {
+      "filename": "real_robot_depth_frame_02.npy",
+      "shape": [
+        480,
+        848
+      ],
+      "total_pixels": 407040,
+      "valid_pixels": 304261,
+      "coverage_pct": 74.74965605345912,
+      "depth_range": [
+        0.32899999618530273,
+        9.996000289916992
+      ],
+      "mean_depth": 0.9229506254196167,
+      "depth_std": 0.9040777683258057,
+      "edge_content": "0.06226964",
+      "sim_coverage_pct": 36.328125,
+      "real_coverage_pct": 99.609375,
+      "coverage_loss_pct": 38.42153105345912,
+      "resolution_compression": 265.0
+    },
+    {
+      "filename": "real_robot_depth_frame_03.npy",
+      "shape": [
+        480,
+        848
+      ],
+      "total_pixels": 407040,
+      "valid_pixels": 303218,
+      "coverage_pct": 74.49341588050315,
+      "depth_range": [
+        0.32899999618530273,
+        9.996000289916992
+      ],
+      "mean_depth": 0.9169776439666748,
+      "depth_std": 0.8930902481079102,
+      "edge_content": "0.066948414",
+      "sim_coverage_pct": 32.8125,
+      "real_coverage_pct": 99.54427083333333,
+      "coverage_loss_pct": 41.68091588050315,
+      "resolution_compression": 265.0
+    },
+    {
+      "filename": "real_robot_depth_frame_04.npy",
+      "shape": [
+        480,
+        848
+      ],
+      "total_pixels": 407040,
+      "valid_pixels": 303051,
+      "coverage_pct": 74.45238797169812,
+      "depth_range": [
+        0.32899999618530273,
+        9.996000289916992
+      ],
+      "mean_depth": 0.9152523279190063,
+      "depth_std": 0.8939205408096313,
+      "edge_content": "0.061554182",
+      "sim_coverage_pct": 35.7421875,
+      "real_coverage_pct": 99.67447916666667,
+      "coverage_loss_pct": 38.710200471698116,
+      "resolution_compression": 265.0
+    }
+  ],
+  "summary": {
+    "avg_coverage": 72.6209831957547,
+    "avg_coverage_loss": 38.16134777908805,
+    "avg_compression": 265.0,
+    "depth_range_overall": [
+      0.32899999618530273,
+      9.996000289916992
+    ]
+  }
+}

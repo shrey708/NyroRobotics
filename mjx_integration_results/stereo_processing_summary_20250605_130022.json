@@ -1,0 +1,135 @@
+{
+  "timestamp": "20250605_130022",
+  "config": {
+    "target_resolution": [
+      48,
+      32
+    ],
+    "max_depth": 2.0,
+    "min_depth": 0.15,
+    "edge_gradient_threshold": 0.1,
+    "edge_corruption_prob": 0.3,
+    "edge_shuffle_prob": 0.4,
+    "perlin_scale": 8.0,
+    "perlin_threshold": 0.4,
+    "perlin_evolution_speed": 0.05,
+    "blind_spot_min_cols": 1,
+    "blind_spot_max_cols": 5,
+    "gaussian_sigma": 0.8
+  },
+  "results": [
+    {
+      "frame_name": "stereo_frame_1",
+      "original_file": "extended_robot_depth_frame_04.npy",
+      "stats": {
+        "original_coverage": 99.8828125,
+        "original_valid_pixels": 406563,
+        "original_mean_depth": "0.5568904",
+        "original_depth_range": [
+          0.0,
+          1.8350000381469727
+        ],
+        "original_resolution": "848x480",
+        "simulated_coverage": 32.2265625,
+        "simulated_valid_pixels": 495,
+        "simulated_mean_depth": "0.9322966",
+        "simulated_depth_range": [
+          0.0030806302092969418,
+          1.8060051202774048
+        ],
+        "simulated_resolution": "48x32",
+        "real_coverage": 100.0,
+        "real_valid_pixels": 1536,
+        "real_mean_depth": "0.5585817",
+        "real_depth_range": [
+          0.00012599518231581897,
+          1.5120199918746948
+        ],
+        "real_resolution": "48x32",
+        "sim_coverage_loss": 67.65625,
+        "processing_time": 0.003721952438354492,
+        "edge_content": "0.045250427",
+        "depth_variance": "0.13406992"
+      },
+      "visualization": "stereo_matching_processing_20250605_130019_stereo_frame_1.png",
+      "step_visualization": "research_step_by_step_20250605_130018_stereo_frame_1.png",
+      "processing_time": 0.003721952438354492
+    },
+    {
+      "frame_name": "stereo_frame_2",
+      "original_file": "extended_robot_depth_frame_02.npy",
+      "stats": {
+        "original_coverage": 99.90541470125787,
+        "original_valid_pixels": 406655,
+        "original_mean_depth": "0.5566932",
+        "original_depth_range": [
+          0.0,
+          1.5579999685287476
+        ],
+        "original_resolution": "848x480",
+        "simulated_coverage": 35.546875,
+        "simulated_valid_pixels": 546,
+        "simulated_mean_depth": "0.9222097",
+        "simulated_depth_range": [
+          0.0009008003980852664,
+          1.8077198266983032
+        ],
+        "simulated_resolution": "48x32",
+        "real_coverage": 100.0,
+        "real_valid_pixels": 1536,
+        "real_mean_depth": "0.55805844",
+        "real_depth_range": [
+          6.61230442347005e-05,
+          1.5187238454818726
+        ],
+        "real_resolution": "48x32",
+        "sim_coverage_loss": 64.35853970125787,
+        "processing_time": 0.0020859241485595703,
+        "edge_content": "0.04145778",
+        "depth_variance": "0.13674341"
+      },
+      "visualization": "stereo_matching_processing_20250605_130020_stereo_frame_2.png",
+      "step_visualization": "research_step_by_step_20250605_130020_stereo_frame_2.png",
+      "processing_time": 0.0020859241485595703
+    },
+    {
+      "frame_name": "stereo_frame_3",
+      "original_file": "extended_robot_depth_frame_01.npy",
+      "stats": {
+        "original_coverage": 99.88182979559748,
+        "original_valid_pixels": 406559,
+        "original_mean_depth": "0.55675435",
+        "original_depth_range": [
+          0.0,
+          1.555999994277954
+        ],
+        "original_resolution": "848x480",
+        "simulated_coverage": 30.143229166666668,
+        "simulated_valid_pixels": 463,
+        "simulated_mean_depth": "0.9103697",
+        "simulated_depth_range": [
+          0.0024202174972742796,
+          1.7681766748428345
+        ],
+        "simulated_resolution": "48x32",
+        "real_coverage": 100.0,
+        "real_valid_pixels": 1536,
+        "real_mean_depth": "0.55845994",
+        "real_depth_range": [
+          2.3101647457224317e-05,
+          1.5150413513183594
+        ],
+        "real_resolution": "48x32",
+        "sim_coverage_loss": 69.73860062893081,
+        "processing_time": 0.0019791126251220703,
+        "edge_content": "0.034307912",
+        "depth_variance": "0.14331059"
+      },
+      "visualization": "stereo_matching_processing_20250605_130022_stereo_frame_3.png",
+      "step_visualization": "research_step_by_step_20250605_130021_stereo_frame_3.png",
+      "processing_time": 0.0019791126251220703
+    }
+  ],
+  "average_processing_time": 0.002595663070678711,
+  "focus": "stereo_matching_limitations_with_steps"
+}

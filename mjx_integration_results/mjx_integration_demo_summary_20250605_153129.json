@@ -1,0 +1,135 @@
+{
+  "timestamp": "20250605_153129",
+  "total_processing_time": 0.035003662109375,
+  "total_steps": 2,
+  "total_worlds": 8,
+  "average_step_time": 0.0175018310546875,
+  "results": [
+    {
+      "step": 1,
+      "num_worlds": 4,
+      "processing_time": 0.02178788185119629,
+      "world_results": [
+        {
+          "world_id": 0,
+          "original_shape": [
+            240,
+            320
+          ],
+          "processed_shape": [
+            32,
+            48
+          ],
+          "original_coverage": 100.0,
+          "processed_coverage": 99.609375,
+          "mean_depth": 1.7294190457701921
+        },
+        {
+          "world_id": 1,
+          "original_shape": [
+            240,
+            320
+          ],
+          "processed_shape": [
+            32,
+            48
+          ],
+          "original_coverage": 100.0,
+          "processed_coverage": 98.89322916666667,
+          "mean_depth": 1.7922783487314793
+        },
+        {
+          "world_id": 2,
+          "original_shape": [
+            240,
+            320
+          ],
+          "processed_shape": [
+            32,
+            48
+          ],
+          "original_coverage": 100.0,
+          "processed_coverage": 98.89322916666667,
+          "mean_depth": 1.8159409601142438
+        },
+        {
+          "world_id": 3,
+          "original_shape": [
+            240,
+            320
+          ],
+          "processed_shape": [
+            32,
+            48
+          ],
+          "original_coverage": 100.0,
+          "processed_coverage": 99.21875,
+          "mean_depth": 1.8594602900550514
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "num_worlds": 4,
+      "processing_time": 0.012635946273803711,
+      "world_results": [
+        {
+          "world_id": 0,
+          "original_shape": [
+            240,
+            320
+          ],
+          "processed_shape": [
+            32,
+            48
+          ],
+          "original_coverage": 100.0,
+          "processed_coverage": 99.4140625,
+          "mean_depth": 1.718381476750696
+        },
+        {
+          "world_id": 1,
+          "original_shape": [
+            240,
+            320
+          ],
+          "processed_shape": [
+            32,
+            48
+          ],
+          "original_coverage": 100.0,
+          "processed_coverage": 99.4140625,
+          "mean_depth": 1.7964581202884937
+        },
+        {
+          "world_id": 2,
+          "original_shape": [
+            240,
+            320
+          ],
+          "processed_shape": [
+            32,
+            48
+          ],
+          "original_coverage": 100.0,
+          "processed_coverage": 99.54427083333333,
+          "mean_depth": 1.8238205317991028
+        },
+        {
+          "world_id": 3,
+          "original_shape": [
+            240,
+            320
+          ],
+          "processed_shape": [
+            32,
+            48
+          ],
+          "original_coverage": 100.0,
+          "processed_coverage": 100.0,
+          "mean_depth": 1.8588826007557557
+        }
+      ]
+    }
+  ]
+}
